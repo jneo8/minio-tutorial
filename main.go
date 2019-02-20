@@ -21,8 +21,8 @@ func RandStringBytesRmndr(n int) string {
 
 func main() {
 	endpoint := "localhost:9000"
-	accessKeyID := "user"
-	secretAccessKey := "pwd"
+	accessKeyID := "access_user"
+	secretAccessKey := "secret_pwd"
 	useSSL := false
 
 	// Init
